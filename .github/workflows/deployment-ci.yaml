@@ -9,7 +9,7 @@ env:
     AZURE_CONTAINER_REGISTRY: arc20230414
     CLUSTER_NAME: aks-01
     CLUSTER_RESOURCE_GROUP: MyAKSGroup
-    CONTAINER_NAME: image-workflow-1681467847748
+    CONTAINER_NAME: docker-image
     DEPLOYMENT_MANIFEST_PATH: |
         ./kube-deployment.yml
 jobs:
